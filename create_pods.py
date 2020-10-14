@@ -8,8 +8,8 @@ with open("non-dlc-characters.txt", "r") as character_file:
 
 # Remove Mike's veto's
 # https://tenor.com/bmcQR.gif
-#draftable_characters.remove()
-#draftable_characters.remove()
+draftable_characters.remove("Bowser")
+draftable_characters.remove("Incineroar")
 
 # Generate pods dict
 pods = {
@@ -25,13 +25,15 @@ pods = {
 
 # Combine the seeds of all for one... master seed
 random.seed(
-      69        # Brian
-    + 69        # Kyle
-    + 70        # Sam
-    + 420       # Mike
-    + 23        # Marlene
-    + 146601812 # Nick
-    + 544       # Phil
+      69            # Brian
+    + 69            # Kyle
+    + 70            # Sam
+    + 420           # Mike
+    + 23            # Marlene
+    + 146601812     # Nick
+    + 544           # Phil
+    + 347           # Jan (wildcard)
+    + int(0x533d)   # Nik
 )
 
 # Populate pods
