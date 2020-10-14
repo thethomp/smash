@@ -1,0 +1,14 @@
+Date: 10/24
+
+Rules:
+
+- Each player has a pod of 9 characters to play
+- For each match, the player will pick a character from their pod to play, they cannot play that character again until they've played all other characters in their pod.
+- Characters are selected in secret, you will not have knowledge of what your opponent picks when you select your character to play for your match.
+
+Draft Rules:
+
+- No DLC characters allowed
+- There are 74 non-DLC characters. I'll be personally taking 2 out of the draft. You can have fun figuring out which ones were removed.
+- The pods will be initially populated with 5 random characters, the remaining 4 characters for your pod will be drafted (round-robin)
+- Randomization will be done programmatically (Python) using standard random library
